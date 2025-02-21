@@ -1,0 +1,62 @@
+/* Basic styles */
+body{
+    background-color: #D5D5D5;
+}
+h1 {
+    color: #9099A2; 
+}
+
+h2, h3, h4, h5, h6{
+    color: #6D7993; /* Accent */
+}
+
+a{
+    color:inherit;
+    text-decoration:none;
+}
+
+a:hover{
+    color:#6D7993;;
+    text-decoration:underline;
+}
+
+header{
+    background-color: #96858F;
+    padding:4em;
+    margin:2em;
+}
+
+/* Homepage styles*/
+.cover{
+    background-image:url("http://www.publicdomainpictures.net/pictures/140000/t2/ark-texture-impasto-color-swirl-.jpg");
+    background-size:cover;
+    height:300px;
+    margin-top:25%;
+}
+
+.cover .col-md-2{
+    height:200px;
+    padding:2em;
+    margin-top:2em;
+}
+
+.front-logo h1{
+    color:white;
+    margin-top:3em;
+}
+
+.front-nav-1{
+    background-color:#64271b;
+}
+.front-nav-2{
+    background-color:#354243;
+}
+.front-nav-3{
+    background-color:#80598d;
+}
+
+/*  Castle-Gallery */
+.img-thumbnail{
+    width:200px;
+    height:200px;
+}
